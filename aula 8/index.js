@@ -7,9 +7,11 @@ const nome = 'Luiz Otávio';
 const sobrenome = 'Miranda';
 const idade = 30;
 const peso = 84;
-const altura = 1.80;
+const alturaEmM = 1.80;
 let imc; // peso / (altura* altura)
 let anoNascimento;
 
-var imc = peso / (altura * altura);
-var imc = 1993 - idade;
+imc = peso / (alturaEmM * alturaEmM);
+anoNascimento = 1993 - idade;
+
+console.log(imc);
