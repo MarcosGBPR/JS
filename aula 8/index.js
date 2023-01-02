@@ -3,15 +3,15 @@ Luiz Otávio Miranda tem 30 anos, pesa 84KG, tem 1,80 de altura e seu IMC é de 
 Luiz Otávio nasceu em 1993
 */
 
-const nome = 'Luiz Otávio';
-const sobrenome = 'Miranda';
-const idade = 30;
-const peso = 84;
-const alturaEmM = 1.80;
-let imc; // peso / (altura* altura)
+const nome = 'Marcos Gabriel';
+const sobrenome = 'Pereira Rosa';
+const idade = 21;
+const peso = 55;
+const alturaEmM = 1.71;
+let indiceMassaCorporal; // peso / (altura* altura)
 let anoNascimento;
 
-imc = peso / (alturaEmM * alturaEmM);
-anoNascimento = 1993 - idade;
+indiceMassaCorporal = peso / (alturaEmM * alturaEmM);
+anoNascimento = 2022 - idade;
 
-console.log(imc);
+console.log(`${nome} ${sobrenome} tem ${idade} anos, nasceu em ${anoNascimento} e pesa ${peso}KG, tem ${alturaEmM}M e seu IMC é de ${indiceMassaCorporal}.`);
