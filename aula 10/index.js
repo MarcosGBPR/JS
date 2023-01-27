@@ -9,7 +9,12 @@ Contadores Aritméticos
 % = Resto da divisão
 */
 
+// NaN - Not a number
+// parseInt = Inteiro
+// parseFloat = Casas Decimais
+// Number = Ambos
+
 const num1 = 5;
-const num2 = 2;
+const num2 = Number('2.7');
 const num3 = 10;
 console.log((num1 + num2) * num3);
